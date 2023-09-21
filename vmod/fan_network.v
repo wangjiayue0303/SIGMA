@@ -112,6 +112,15 @@ module fan_network # (
 			r_fan_ff_lvl_1_to_3[191:160] = w_fan_lvl_1[383:352];
 			r_fan_ff_lvl_2_to_4[31:0] = w_fan_lvl_2[95:64];
 			r_fan_ff_lvl_2_to_4[63:32] = w_fan_lvl_2[127:96];
+			
+			/***
+   			r_fan_ff_lvl_0_to_4[63:0] = r_fan_ff_lvl_0_to_3[127:64];
+			r_fan_ff_lvl_0_to_3[191:0] = r_fan_ff_lvl_0_to_2[383:64];
+			r_fan_ff_lvl_0_to_2[447:0] = w_fan_lvl_0[895:64];
+			r_fan_ff_lvl_1_to_4[63:0] = r_fan_ff_lvl_1_to_3[127:64];
+			r_fan_ff_lvl_1_to_3[191:0] = w_fan_lvl_1[383:64];
+			r_fan_ff_lvl_2_to_4[63:0] = w_fan_lvl_2[127:64];
+			***/
 		end
 	end
 
