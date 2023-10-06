@@ -9,9 +9,9 @@
 
 module xbar # (
 	parameter DATA_TYPE = 16,
-	parameter NUM_PES = 64,
-	parameter INPUT_BW = 64,
-	parameter LOG2_PES = 6) (
+	parameter NUM_PES = 32,
+	parameter INPUT_BW = 32,
+	parameter LOG2_PES = 5) (
 	clk,
 	rst,
 	i_data_bus, // input data bus
