@@ -52,8 +52,8 @@ endmodule
 
 module mux # (
 	parameter DATA_TYPE = 16,
-	parameter INPUT_BW = 128,
-	parameter SEL_SIZE = 7) (
+	parameter INPUT_BW = 32,
+	parameter SEL_SIZE = 5) (
 	clk,
 	rst,
 	i_data_bus,
